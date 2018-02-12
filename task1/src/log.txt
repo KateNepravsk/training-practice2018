@@ -1,0 +1,11 @@
+commit c490f724c620614b3e84288e1975075edc6a65fc (HEAD -> master)
+Author: Ekaterina Nepravskaya <pink_puma9@mail.ru>
+Date:   Mon Feb 12 18:33:09 2018 +0300
+
+    add status.txt
+
+commit c66bbbf16ae5a823bf094ec965add703cf4b52ec
+Author: Ekaterina Nepravskaya <pink_puma9@mail.ru>
+Date:   Mon Feb 12 18:27:51 2018 +0300
+
+    add .gitignore

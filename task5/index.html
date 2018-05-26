@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="maximum-scale=1">
+	<title>WINstagram </title>
+	<link rel="shortcut icon" href="win.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="bd">
+	<script src="main.js"></script>
+	<header id="header" class="up">
+		<div id="photologo">
+			<img src="logo.png" class="logo" align="middle">
+		</div>
+		<div id="namePortal">
+			<h1>WINstagram</h1>
+		</div>
+		<div id="exit">
+			<button class="btn btn-in">Exit</button>
+		</div>
+		
+	<hr>
+	</header>
+	<div class="menu">
+	    <form>
+			<p><input type="checkbox">Author:</p>
+			<p id="list">
+				<input list="authors" placeholder="author">
+				<datalist id="authors">
+					<!-- authors -->
+				</datalist>
+			</p>
+		</form>
+		<p><input type="checkbox" >Date:</p>
+		<p><input type="text" id="input_date1" placeholder="01.01.02" size="7%">-<input type="text" id="input_date2" placeholder="26.02.18" size="7%"></p>
+		<p><input type="checkbox">#:</p>
+		<p><input type="text" id="input_hashtag" placeholder="#winstagram"></p>
+		<button>OK </button>
+	</div>
+	<div class="lenta">
+		
+	</div>
+	<div><p><button class="more">More photo...</button></p></div>
+	
+	<footer class="down">
+		<p align="center"> <i>WINstagram | Made by Ekaterina Nepravskaya | 2 year 2 group | 
+		pink_puma9@mail.ru | 01.02.2018</i></p>
+	</footer>
+	
+	<template id="postTemplate">
+    <div class="publication">
+		<h3 id="user"></h3>
+		<div id="date"></div>
+		<img src="" alt="post" id="photo">
+		<div id="user_button">
+		<input type="image" src="win.png" alt="WIN" class="win"/>
+		</div>
+		<p id="description"></p>
+		<p id="hashtags"></p>
+    </div>
+	</template>
+	
+	<template id="editButtonsTemplate">
+		<button class="btnEdit">Edit</button>
+        <button class="btnDel">Delete</button>
+	</template>
+	
+	<template id="headerTemplate">
+    <div id="addphoto">
+        <button class="btn">Add Photo</button>
+    </div>
+    <div id="username">
+        <h3></h3>
+    </div>
+	</template>
+
+	<template id="authorSelectTemplate">
+    <div id="addphoto">
+       <button class="btn">Add Photo</button>
+    </div>
+    <div id="username">
+        <h3></h3>
+    </div>
+	</template>
+	
+	<script src="main.js"></script>
+	<script src ="task5DOM.js"></script>
+</body>
+</html>
